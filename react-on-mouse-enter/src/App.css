@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  gap: 16px;
+  background-color: #232946;
+  color: #fffffe;
+  padding: 2rem 6rem;
+}
+
+.over-and-enter {
+  background-color: #eebbc3;
+  border: 4px solid #121629;
+  color: #232946;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.over {
+  background-color: #b8c1ec;
+  border: 4px solid #121629;
+  color: #232946;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.enter {
+  background-color: #fffffe;
+  border: 4px solid #121629;
+  color: #232946;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 8px;
+}

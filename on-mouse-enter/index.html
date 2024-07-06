@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=5.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: red;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      padding: 5rem;
+      background-color: darkslategray;
+    }
+    div {
+      width: 300px;
+      height: 100px;
+      background-color:darkkhaki;
+      font-size: larger;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    div#imp {
+        background-color: hotpink;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <div 
+    id="imp"
+    onmouseenter="console.log('mouse enter event')"
+  > 
+    mouse enter/exit event on this div
+  </div>
+  <div></div>
+</body>
+</html>
